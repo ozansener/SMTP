@@ -1,0 +1,16 @@
+{
+  "env_name" : "Swimmer-v1",
+  "seed": 1337,
+  "policy_type": "linear",
+  "delta_std": 0.02,
+  "step_size": 0.02,
+  "num_workers": 4,
+  "rollout_length": 1000,
+  "num_rollouts": 4,
+  "sampler": "unit_normal",
+  "n_iter": 200,
+  "shift": 0,
+  "save_gradients": false,
+  "momentum": false,
+  "beta": 0.9
+}
